@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesyonel Lazer Epilasyon Merkezi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+.posta{
+    width: 100%;
+    height: 300px;
+    background-color: #ff5722;
+}
+
+.containerr{
+    
+    padding: 20px;
+    
+    
+}
+
+
+
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Arka plan rengi */
+            
+        }
+
+        /* WhatsApp Butonu Stili */
+        .whatsapp-button {
+            position: fixed; /* Sabit konum */
+            bottom: 20px; /* Aşağıdan 20px */
+            right: 20px; /* Sağdan 20px */
+            background-color: #25D366; /* WhatsApp yeşil rengi */
+            color: white;
+            border: none;
+            border-radius: 50%; /* Yuvarlak köşeler */
+            width: 60px; /* Buton boyutu */
+            height: 60px; /* Buton boyutu */
+            display: flex; /* İçerik hizalaması */
+            justify-content: center; /* Ortala */
+            align-items: center; /* Ortala */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Gölge efekti */
+            cursor: pointer; /* İmleci değiştirme */
+            font-size: 24px; /* İkon boyutu */
+            transition: background-color 0.3s; /* Renk geçişi */
+        }
+
+        .whatsapp-button:hover {
+            background-color: #128C7E; /* Hover durumu rengi */
+        }
+
+
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Arka plan rengi */
+        }
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        img{
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color:rgb(9, 10, 10);
+            padding: 1rem 0;
+            color: #cad9cf;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(231, 229, 229, 0.1);
+            border: 5px solid rgb(205, 219, 206);
+        }
+
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .navbar-nav a {
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav a:hover {
+            color: white;
+        }
+
+        .hero {
+            background: url('img/dukkan.jpg') center center/cover no-repeat;
+            height: 600px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        .hero-text {
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        .hero button {
+            background-color: #ff7f50;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        .hero button:hover {
+            background-color: #ff5722;
+        }
+        
+
+        /* About Section */
+        .about {
+            padding: 4rem 0;
+        }
+
+        .about img {
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-text h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-text p {
+            font-size: 1.2rem;
+        }
+
+        .about button {
+            background-color: #ff7f50;
+            color: #fff;
+            padding: 0.75rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .about button:hover {
+            background-color: #ff5722;
+        }
+
+        /* Services Section */
+        .services {
+            background-color: #f8f8f8;
+            padding: 4rem 0;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .service-box {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .service-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-box img {
+            width: 100px;
+            margin-bottom: 1rem;
+        }
+
+        .service-box h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .service-box p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 4rem 0;
+        }
+
+        .testimonial-box {
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-box p {
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial-box img {
+            width: 50px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        /* Contact */
+        .contact {
+            background-color: #f8f8f8;
+            padding: 4rem 0;
+        }
+
+        .contact h2 {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #9e6666;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+       .logoo{
+        width: 100%;
+        height: 90px;
+        background-color: red;
+       }
+
+
+
+
+
+        .ahmet{
+            width: 1px;
+            height: 1px;
+            background-color: black;
+            top: 10px;
+            right: 20px;
+            position: absolute;
+        }
+
+        /* Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+
+            .about {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><div class="logoo"><i><img width="600px" height="100px" src="img/fat.jpg" alt=""></i></div></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="onson.html">Öncesi-Sonrası</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hizmet.html">Hizmetler</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="ahmet" ><!-- WhatsApp İletişim Butonu -->
+        <a href="https://wa.me/905461203461" target="_blank" class="whatsapp-button" title="Bize WhatsApp'tan ulaşın!">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp İkonu" style="width: 50%; height: 50%;"/>
+        </a>
+        
+          </div>
+
+    
+</header>
+
+
+
+
+
+<!-- WhatsApp İletişim Butonu -->
+<a href="https://wa.me/905461203461" target="_blank" class="whatsapp-button" title="Bize WhatsApp'tan ulaşın!">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp İkonu" style="width: 50%; height: 50%;"/>
+</a>
+
+  
+
+
+
+
+
+<!-- Hero Section -->
+<div class="containerr">
+   <section class="hero">
+    
+    <div class="hero-text fade-in">
+      
+        <h1>Lazer Epilasyonla Kalıcı Çözümler</h1>
+        <p>Modern teknolojimizle daha pürüzsüz bir cilt için en iyi çözümleri sunuyoruz.</p>
+        <button>Detaylı Bilgi İçin Whatsap İle İletişime Geçin</button>
+    </div>
+</section>
+</div>
+
+<!-- About Section -->
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img width="500px" height="400px" src="img/indir.jpg" alt="Hakkımızda" class="img-fluid">
+            </div>
+            <div class="col-md-6 about-text fade-in">
+                <h2>Hakkımızda</h2>
+                <p>Lazer Epilasyon Merkezi olarak, her cilt tipi için güvenli ve etkili çözümler sunmaktayız. Uzman kadromuzla, son teknoloji cihazlarla kaliteli hizmet veriyoruz.</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services">
+    <div class="container">
+        <h2>Hizmetlerimiz</h2>
+        <div class="row">
+            <div class="col-md-4 service-box">
+                <img src="img/99.jpg" alt="Hizmet 1"><br>
+                <a href="#">Ücretsiz Cilt Analizi</a>
+                <p>Cildinize zarar vermeden kalıcı sonuçlar elde edin.</p>
+            </div>
+            <div class="col-md-4 service-box">
+                <img src="img/indir.jpg" alt="Hizmet 2"><br>
+                <a href="#">Ücretsiz Deneme Atışı</a>
+                <p>En kısa sürede en etkili sonuçları alın.</p>
+            </div>
+            <div class="col-md-4 service-box">
+                <img src="img/merkez6.jpg" alt="Hizmet 3"><br>
+                <a  href="img/merkez.html">Merkezimiz</a>
+                <p>En yeni teknolojilerle hizmet veriyoruz.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="footer">
+    <div class="footer-content">
+        <h3>İletişim Adresimiz</h3>
+        <p>Fatma Yılmaz Beauty Vıp<br>
+           Bağcılar caddesi Yıldıztepe mahallesi 509.sokak kat:3-4 daire:4(yapı kredi bankasının üstü)Bağcılar/İstanbul <br><b>0212 433 12 61---0546 120 34 61</b></p>
+    </div>
+    <div class="map">
+        <h4>Haritamız</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.041280776223!2d28.852655985099666!3d41.02435279747182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa4d49268e9cd%3A0xac379059b0c1cf4b!2sFatma%20Y%C4%B1lmaz%20Beauty%20Vip!5e0!3m2!1str!2str!4v1727314255067!5m2!1str!2str" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 Örnek Güzellik Salonu | Tüm Hakları Saklıdır</p>
+    </div>
+</div>
+
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f0f0f0; /* Genel arka plan rengi */
+    }
+
+    .footer {
+        background-color: #ffffff; /* İç alan arka plan rengi */
+        padding: 30px;
+        text-align: center; /* Ortala */
+        margin-top: 40px; /* Üst boşluk */
+        border-top: 2px solid #007bff; /* Üst kenar çizgisi */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Gölge */
+    }
+
+    .footer-content h3 {
+        color: #007bff; /* Başlık rengi */
+        margin-bottom: 10px; /* Alt boşluk */
+        font-size: 1.8em; /* Başlık boyutu */
+    }
+
+    .footer-content p {
+        line-height: 1.6; /* Satır yüksekliği */
+        color: #555; /* Metin rengi */
+        font-size: 1.1em; /* Metin boyutu */
+    }
+
+    .map {
+        margin-top: 20px; /* Üst boşluk */
+    }
+    
+    .map h4 {
+        color: #007bff; /* Harita başlık rengi */
+        font-size: 1.5em; /* Harita başlık boyutu */
+    }
+
+    .footer-bottom {
+        margin-top: 20px; /* Üst boşluk */
+        color: #777; /* Alt bilgi rengi */
+        font-size: 0.9em; /* Alt bilgi metin boyutu */
+    }
+
+    .footer-bottom p {
+        margin: 10px 0; /* Üst ve alt boşluk */
+    }
+</style>
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p >&copy; 2024 Lazer Epilasyon Merkezi. Tüm Hakları Saklıdır.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
